@@ -1,6 +1,6 @@
-# VOMS Client [![Build Status](https://travis-ci.org/EGI-Foundation/ansible-role-VOMS-client.svg?branch=master)](https://travis-ci.org/EGI-Foundation/ansible-role-VOMS-client)
+# VOMS Client
 
-<!-- A brief description of the role goes here. -->
+[![Build Status](https://travis-ci.org/EGI-Foundation/ansible-role-VOMS-client.svg?branch=master)](https://travis-ci.org/EGI-Foundation/ansible-role-VOMS-client) [![DOI](https://zenodo.org/badge/135555680.svg)](https://zenodo.org/badge/latestdoi/135555680) [![Maintainability](https://api.codeclimate.com/v1/badges/bc8538cd1a170918fc65/maintainability)](https://codeclimate.com/github/EGI-Foundation/ansible-role-VOMS-client/maintainability)
 
 ## General information
 
@@ -97,7 +97,7 @@ There is no need to change the default variables.
 Dependencies are not explicitly declared in the metadata, but this role depends on the UMD role:
 
 ```yaml
-  - { role: brucellino.umd, release: 4 }
+  - { role: EGI-Foundation.umd, release: 4 }
 ```
 
 ## Example Playbook
@@ -120,4 +120,4 @@ Apache-2.0
 
 ## Author Information
 
-See AUTHORS.md
+See [AUTHORS.md](AUTHORS.md)
